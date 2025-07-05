@@ -369,20 +369,20 @@ nav a:hover {
     top:70px;
     left:0px;
     width:100;
-    padding:20px;
+    padding:20px 0;
     display:none;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   }
-  .nav.ul open{
+  nav.open ul{
     display:flex;
   }
 
-  .nav ul li{
+  nav ul li{
     width:100%;
     text-align:center;
   }
 
-  .nav a{
+  nav a{
     padding:0 10px;
     display:block;
   }
