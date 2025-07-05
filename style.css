@@ -333,4 +333,52 @@ nav a:hover {
   50% { transform: translateY(-10px);}
 }
 
+@media (max-width:768px){
+  header{
+    flex-direction:row;
+    align-items:center;
+    gap:20px;
+  }
+  nav ul{
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:flex-start;
+    gap:15px;
+  }
+  .home-container,
+  .about-container,
+  .contact-container{
+    flex-direction:column;
+    text-align: center;
+    align-items:center;
+  }
+  .introPic,
+  .contact-img img{
+    width: 80%;
+    max-width: 250px;
+  }
+  
 
+  .home-text h1{
+    font-size: 2.5rem;
+  }
+  .home-text p{
+    font-size:1.1rem;
+  }
+  .home-btn {
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+  .about-content,
+  .contact-text{
+    max-width:100%;
+  }
+  .socials{
+    justify-content: center;
+  }
+  .site-footer{
+    text-align: center;
+  }
+}
