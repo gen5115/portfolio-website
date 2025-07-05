@@ -60,11 +60,11 @@ nav a:hover {
 #home {
   background-color: #FFF9F5;
   min-height: 100vh;
-  padding: 60px 80px;
+  padding: 60px 20px;
   text-align: center;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
   opacity: 0;
   transform: translateY(15px);
   animation: fadeIn 1s ease forwards;
@@ -157,6 +157,13 @@ nav a:hover {
   }
 }
 
+.about-container{
+  padding:20px 40px;
+  gap:40px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 .about-content {
   flex: 1;
   max-width: 350px;
